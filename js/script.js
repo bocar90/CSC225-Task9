@@ -4,7 +4,6 @@ jQuery(document).ready(function($) {
         e.preventDefault();
         var preprend = $('#text').val();
         if(preprend!=''){
-            console.log(preprend);
             var str1="<p>";
             var str2="</p>";
             var res = str1.concat(preprend, str2);
